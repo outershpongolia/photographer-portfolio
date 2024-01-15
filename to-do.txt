@@ -1,0 +1,4 @@
+# animate slides in Reviews
+# change functionality for mapping dots (change array)
+# put svg on camera in header
+# add more images to portfolio for it to display different content on every tab

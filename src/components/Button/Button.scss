@@ -1,0 +1,33 @@
+.button {
+    cursor: pointer;
+    font-family: 'Montserrat';
+    border-radius: 30px;
+    color: #000 !important;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    &_white,
+    &_black {
+        padding: 12px 64px;
+        border: 1px solid #000;
+        font-weight: 700;
+    }
+    
+    &_white {
+        background-color: #fff;
+    }
+
+    &_black {
+        background-color: #000;
+        color: #fff !important;
+    }
+
+    &_icon {
+        gap: 8px;
+        font-size: 32px;
+        line-height: 40px;
+        font-weight: 600;
+    }
+}

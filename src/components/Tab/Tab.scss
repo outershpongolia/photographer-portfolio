@@ -1,0 +1,18 @@
+.tab {
+    cursor: pointer;
+    font-weight: 500;
+    padding: 18px 72px;
+    border-right: 3px solid #00000070;
+    text-transform: capitalize;
+
+    &_active {
+        color: #CD7D37;
+        text-decoration: underline;
+        text-underline-offset: 8px;
+        text-decoration-thickness: 3px;
+    }
+
+    &:last-child {
+        border-right: 0;
+    }
+}

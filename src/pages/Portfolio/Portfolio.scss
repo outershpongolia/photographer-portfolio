@@ -1,0 +1,13 @@
+.portfolio {
+    padding: 260px 32px;
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__tabs {
+        display: flex;
+    }
+}
